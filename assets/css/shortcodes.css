@@ -877,8 +877,8 @@
 .tab-link.active,
 .tab-link:hover,
 .tab-link:active {
-    background: var(--primary-color);
-    color: #fff;
+    background: #fff;
+    
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -886,7 +886,7 @@
     transition: all 0.3s ease;
 }
 
-.tab-link.active::after,
+/* .tab-link.active::after,
 .tab-link:active::after {
     opacity: 1;
     visibility: visible;
@@ -895,7 +895,7 @@
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-}
+} */
 
 .tab-icon {
     padding-top: 50px;
@@ -903,7 +903,7 @@
 
 .tab-title {
     padding-top: 28px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .tab-content {

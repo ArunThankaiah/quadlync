@@ -34,23 +34,7 @@
     font-size: 18px;
     line-height: normal;
 }
-/* responsive */
-@media (max-width: 776px){
-    #site-header {
-        display: flex;
-        padding: unset;
-        align-items: unset;
-        justify-content: unset;
-    }
-    #site-header .logo {
-        width: 250px !important;
-        padding-left: 3rem;
-    }
-    .nav-icons{
-        display: none;
-       
-    }
-}
+
 /* ===================================== */
 /* ===================================== */
 .research-bx{
@@ -156,19 +140,6 @@
     flex: 1;
 }
 
-@media (max-width: 992px){
-    .title-heading.text-color-title-sidebar{
-        margin-bottom: 2rem !important;
-        text-align: center;
-    }
-    .wrap-portfolio{
-        padding: unset;
-    }
-    .cours-bx h3{
-        font-size: 1.5rem;
-       
-    }
-}
 .placement-heading h3{
     font-size: 1.6rem;
     color: #7b2980;
@@ -221,19 +192,7 @@
     font-family: "Poppins", sans-serif;
     letter-spacing: 1px;
 }
-@media (max-width: 776px){
-    .telegram{
-        display: block;
-        transform: translateY(-50px);
-    }
-    .btn.btn-apply{
-        display: none;
-        
-    }
-    .whats-app{
-        width: 30px;
-    }
-}
+
 /*==========================*/
 /* footer */
 /* =========================*/
@@ -244,39 +203,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-/* ======================== */
-/* Responsive Font */
-/* ======================== */
-@media (max-width: 776px){
-    .slide-font-2{
-        font-size: 1.5rem !important;
-        line-height: -1rem;
-    }
-    .mob-small-font-heading{
-        font-size: 2rem !important;
-    }
-    .mob-small-font-heading-p{
-        font-size: 1.3rem !important;
-    }
-    .research-bx p{
-        font-size: 1rem;
-    }
-    #header-baner .text-banner .baner-tittle{
-        font-size: 1.6rem;
-        line-height: 1.3em;
-    }
-    .m-top{
-        margin-top: 2rem !important;
-    }
-    .clinic-research li {
-        font-size: 14px;
-    }
-    .cours-bx h3{
-        font-size: 1rem !important;
-        
-        
-    }
 }
 /* =================================== */
 /* Banner Button */
@@ -313,7 +239,7 @@
 }
 .cours-bx h3{
     font-size: 1rem;
-    padding: 0.5rem 0;
+    padding-bottom: 0.5rem;
     color: #fff;
 }
 .cours-bx .duration button{
@@ -335,3 +261,110 @@
 /* =================================== */
 /* End Landing Page Courses */
 /* =================================== */
+
+/* ======================== */
+/* Responsive Font */
+/* ======================== */
+
+/* 991px */
+
+@media (max-width: 992px){
+    .title-heading.text-color-title-sidebar{
+        margin-bottom: 2rem !important;
+        text-align: center;
+    }
+    .wrap-portfolio{
+        padding: unset;
+    }
+    .cours-bx h3{
+        font-size: 1.5rem;
+       
+    }
+    /* banner title */
+    #header-baner .text-banner .baner-tittle{
+        font-size: 4rem;
+    }
+    /* banner title */
+    @media (max-width: 776px){
+        .slide-font-2{
+            font-size: 1.5rem !important;
+            line-height: -1rem;
+        }
+        .mob-small-font-heading{
+            font-size: 2rem !important;
+        }
+        .mob-small-font-heading-p{
+            font-size: 1.3rem !important;
+        }
+        .research-bx p{
+            font-size: 1rem;
+        }
+        #header-baner .text-banner .baner-tittle{
+            font-size: 1.6rem;
+            line-height: 1.3em;
+        }
+        .m-top{
+            margin-top: 2rem !important;
+        }
+        .clinic-research li {
+            font-size: 14px;
+        }
+        .cours-bx h3{
+            font-size: 1rem !important;
+            
+            
+        }
+        #header-baner .text-banner .baner-tittle{
+            text-align: center;
+        }
+        .mode-btn{
+            margin-top: -1rem !important;
+            flex-direction: column;
+    
+        }
+        .mode-btn button{
+            background: unset;
+            border: none !important;
+            outline: none;
+            padding: 0;
+            margin: 0;
+            color: #7b2980;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+        .mode-btn button:hover{
+            background: unset !important;
+            color: #7b2980 !important;
+        }
+        /* call action button */
+        .telegram{
+            display: block;
+            transform: translateY(-50px);
+        }
+        .btn.btn-apply{
+            display: none;
+            
+        }
+        .whats-app{
+            width: 30px;
+        }
+        /* end call action btn */
+        #site-header {
+            display: flex;
+            padding: unset;
+            align-items: unset;
+            justify-content: unset;
+        }
+        #site-header .logo {
+            width: 250px !important;
+            padding-left: 3rem;
+        }
+        .nav-icons{
+            display: none;
+           
+        }
+    }
+}
+/* ======================== */
+/* End Responsive Font */
+/* ======================== */
