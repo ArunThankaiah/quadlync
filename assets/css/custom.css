@@ -83,18 +83,17 @@
 }
 .clinic-research li{
    display: flex;
-   padding-bottom: 0.5rem;
    align-items: center;
+   margin-left: 1rem;
 }
 .clinic-research li i{
     width: 50px;
     height: 50px;
-    padding: 0.2rem;
     color: #7b2980;
     text-align: center;
     line-height: 45px;
-    margin-right: 0.2rem;
     border-radius: 50%;
+    padding: 0 0.2rem;
     font-size: 1rem;
     transition: 0.3s linear;
 }
@@ -122,6 +121,15 @@
     font-family: "Poppins", sans-serif !important;
     padding-bottom: 0.5rem;
     
+}
+.title-bold{
+    font-size: 2rem;
+}
+.carrer-img{
+    z-index: 999;
+}
+.m-top{
+    margin-top: -6rem;
 }
 /* ===================================== */
 /* ===================================== */
@@ -155,6 +163,10 @@
     }
     .wrap-portfolio{
         padding: unset;
+    }
+    .cours-bx h3{
+        font-size: 1.5rem;
+       
     }
 }
 .placement-heading h3{
@@ -257,4 +269,69 @@
     .m-top{
         margin-top: 2rem !important;
     }
+    .clinic-research li {
+        font-size: 14px;
+    }
+    .cours-bx h3{
+        font-size: 1rem !important;
+        
+        
+    }
 }
+/* =================================== */
+/* Banner Button */
+/* =================================== */
+.mode-btn{
+    display: flex;
+    margin-top: 2rem;
+    gap: 0 2rem;
+    
+
+}
+.mode-btn button{
+    border: 1px solid #fff;
+    outline: none;
+    overflow: hidden;
+}
+.mode-btn button:hover{
+    background: #7b2980;
+    color: #fff;
+}
+/* =================================== */
+/* Landing Page Courses */
+/* =================================== */
+.cours-bx{
+    margin-bottom: 2rem;
+}
+.cours-bx img{
+    border-radius: 10px 10px  0 0;
+}
+.content-bx-course{
+    background: #7b2980;
+    padding: 0.5rem;
+    border-radius: 0 0 10px 10px;
+}
+.cours-bx h3{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    color: #fff;
+}
+.cours-bx .duration button{
+    font-size: 0.8rem;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #091D3E;
+    border: 1px solid #fff;
+    outline: none;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    
+}
+.cours-bx .duration button:hover{
+    background: unset;
+}
+
+/* =================================== */
+/* End Landing Page Courses */
+/* =================================== */

@@ -1119,16 +1119,17 @@ a:active {
 
 #header-baner .text-banner {
 	position: absolute;
-	top: 140px;
+	top: 80px;
 }
 
 #header-baner .text-banner .baner-tittle {
 	font-family: 'Jost', sans-serif;
-	font-size: 38px;
+	font-size: 5rem;
 	font-weight: bold;
 	line-height: 68.66px;
 	letter-spacing: -0.6px;
 	color: var(--primary-color2);
+	padding-bottom: 1.5rem;
 }
 
 #header-baner .baner-content,
@@ -2014,7 +2015,7 @@ a.megamenu-box {
 	display: block !important;
 	opacity: 0;
 	position: absolute;
-	width: 250px;
+	width: 380px;
 	background-color: #fff;
 	left: 0;
 	visibility: hidden;
@@ -2053,13 +2054,14 @@ a.megamenu-box {
 	line-height: 45px;
 	color: var(--primary-color2);
 	padding: 0px 0px 0px 15px;
-	width: 250px;
+	width: 380px;
 }
 
 #mainnav .menu>li>.sub-menu>li.active>a,
 #mainnav .menu>li>.sub-menu>li>a:hover {
 	background-color: var(--primary-color);
 	color: #fff;
+	
 }
 
 /* Page Title 
