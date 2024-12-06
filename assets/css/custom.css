@@ -19,13 +19,10 @@
 }
 .nav-icons a{
    padding: 0 0.2rem;
-   
-  
-   
+    
 }
 .nav-icons a img{
-    width: 32px;
-    
+    width: 32px;  
 }
 .tp-caption.tp-resizeme{
     color: #fff !important;
@@ -38,13 +35,13 @@
 /* ===================================== */
 /* ===================================== */
 .research-bx{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 1rem;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    /* padding: 1rem; */
     font-family: "Poppins", sans-serif;
 }
-.research-bx.courses{
-    padding: 1rem 1.5rem;
-}
+/* .research-bx.courses{
+    padding: 0px 1.5rem;
+} */
 .research-bx.courses p{
     font-size: 14px;
 }
@@ -110,7 +107,7 @@
     font-size: 2rem;
 }
 .carrer-img{
-    z-index: 999;
+    z-index: 9;
 }
 .m-top{
     margin-top: -6rem;
@@ -226,6 +223,9 @@
 /* =================================== */
 /* Landing Page Courses */
 /* =================================== */
+.fl-row.process.cours-section{
+    padding: 2rem 0 0 1rem;
+}
 .cours-bx{
     margin-bottom: 2rem;
 }
@@ -261,6 +261,84 @@
 /* =================================== */
 /* End Landing Page Courses */
 /* =================================== */
+
+/* =================================== */
+/* Require */
+/* =================================== */
+
+.require{
+    margin: 0 auto;
+}
+.require .require-bx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.require .require-bx .require-box{
+    width: 250px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: #3c4c59;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0;
+    
+}
+.require .require-bx .require-box h3{
+    color: #f3f3f3;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.require .require-bx .require-box .require-img{
+    width: 50px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+/* =================================== */
+/* End Require */
+/* =================================== */
+
+.blank-bge{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.bachelor li{
+    display: flex;
+    align-items: center;
+
+}
+.bachelor li i{
+    padding-right: 8px;
+}
+.bachelor-heading{
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 10px;
+
+}
+.bachelor-heading h2{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* ======================== */
 /* Responsive Font */

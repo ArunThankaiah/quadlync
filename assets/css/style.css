@@ -1037,6 +1037,7 @@ a:active {
 	padding: 0 7% !important;
 	align-items: center;
 	justify-content: space-between;
+	z-index: 999999;
 }
 
 
@@ -1108,16 +1109,49 @@ a:active {
 }
 
 /* header-banner */
-#header-baner {
+/* #header-baner {
 	height: 420px;
 	position: relative;
 	background-image: url(../image/common/header-baner.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+} */
+.header-baner.pharmacovigilance{
+	height: 420px;
+	position: relative;
+	background:linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../image/common/pharmacovigilance-banner.jpg) !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-baner.medical-write{
+	height: 420px;
+	position: relative;
+	background:linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../image/common/medical-writing-baner.jpg) !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-baner.clinic-research{
+	height: 420px;
+	position: relative;
+	background:linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../image/common/clinic-research-baner.jpg) !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-baner.clinic-data-managment{
+	height: 420px;
+	position: relative;
+	background:linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../image/common/data-manage.jpg) !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #header-baner .text-banner {
+	height: 420px;
 	position: absolute;
 	top: 80px;
 }
@@ -1128,7 +1162,7 @@ a:active {
 	font-weight: bold;
 	line-height: 68.66px;
 	letter-spacing: -0.6px;
-	color: var(--primary-color2);
+	color: #fff;
 	padding-bottom: 1.5rem;
 }
 
@@ -2015,7 +2049,7 @@ a.megamenu-box {
 	display: block !important;
 	opacity: 0;
 	position: absolute;
-	width: 380px;
+	width: 420px;
 	background-color: #fff;
 	left: 0;
 	visibility: hidden;
@@ -2030,7 +2064,9 @@ a.megamenu-box {
 	-o-transform: translateY(10px);
 	transform: translateY(10px);
 }
-
+#mainnav .menu>li>.sub-menu.home{
+	width: 280px !important;
+}
 #mainnav .menu>li:hover>.sub-menu {
 	opacity: 1;
 	z-index: 100;
@@ -2047,6 +2083,7 @@ a.megamenu-box {
 	-ms-transform: translateY(0px);
 	-o-transform: translateY(0px);
 	transform: translateY(0px);
+	overflow: hidden;
 }
 
 #mainnav .menu>li>.sub-menu>li>a {
@@ -2054,13 +2091,18 @@ a.megamenu-box {
 	line-height: 45px;
 	color: var(--primary-color2);
 	padding: 0px 0px 0px 15px;
-	width: 380px;
+	width: 420px;
 }
+#mainnav .menu>li>.sub-menu.home>li>a{
+	width: 280px !important;
+} 
+
 
 #mainnav .menu>li>.sub-menu>li.active>a,
 #mainnav .menu>li>.sub-menu>li>a:hover {
 	background-color: var(--primary-color);
 	color: #fff;
+	overflow: hidden;
 	
 }
 
@@ -2649,7 +2691,7 @@ ul.icon-direction li {
 /* box-recent */
 .box-recent {
 	float: left;
-	width: 25%;
+	width: 50%;
 	padding: 61px 0px 17px 58px;
 	background-color: #142643;
 }
