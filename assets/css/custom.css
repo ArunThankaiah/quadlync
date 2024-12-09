@@ -320,10 +320,18 @@
 .bachelor li i{
     padding-right: 8px;
 }
-.bachelor-heading{
+/* .bachelor-heading{
     box-shadow: 0px 0px 5px #000;
     border-radius: 10px;
 
+} */
+.bachelor-heading{
+    text-align: center;
+}
+
+.bachelor-heading span{
+    font-weight: 600;
+    color: #7b2980;
 }
 .bachelor-heading h2{
     font-size: 1.5rem;
