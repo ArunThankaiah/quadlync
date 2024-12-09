@@ -332,6 +332,7 @@
 .bachelor-heading span{
     font-weight: 600;
     color: #7b2980;
+    letter-spacing: 1px;
 }
 .bachelor-heading h2{
     font-size: 1.5rem;
@@ -381,6 +382,7 @@
         }
         .mob-small-font-heading-p{
             font-size: 1.3rem !important;
+           
         }
         .research-bx p{
             font-size: 1rem;
@@ -414,9 +416,10 @@
             outline: none;
             padding: 0;
             margin: 0;
-            color: #7b2980;
+            color: #fff;
             font-size: 0.8rem;
             margin-bottom: 0.5rem;
+            font-weight: 600;
         }
         .mode-btn button:hover{
             background: unset !important;
@@ -449,6 +452,7 @@
             display: none;
            
         }
+        
     }
 }
 /* ======================== */
