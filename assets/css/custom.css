@@ -303,6 +303,12 @@
 /* End Require */
 /* =================================== */
 
+.apply{
+    background: #fff;
+    border-radius: 20px;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
 .blank-bge{
     width: 100vw;
     height: 80vh;
@@ -319,6 +325,7 @@
 }
 .bachelor li i{
     padding-right: 8px;
+    color: #7b2980;
 }
 /* .bachelor-heading{
     box-shadow: 0px 0px 5px #000;
@@ -338,11 +345,161 @@
     font-size: 1.5rem;
 }
 
+/* ======================== */
+/* Aplication Form */
+/* ======================== */
+.form{
+    width: 100vw;
+    height: 100vh;
+    background: #7b2980;
+    box-sizing: border-box;
+    user-select: none;
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-container{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background: #f7f7f9;
+    padding: 2rem;
+    border-radius: 20px;
+    position: relative;
+    transition: all ease 0.3s;
+}
+.container h2 {  
+    color: #101010;  
+    margin-bottom: 20px;  
+}  
+  
+label {  
+    display: block;  
+    margin-bottom: 5px;  
+    color: #7b2980;  
+    font-weight: bold;  
+}  
+label span{
+    color: red;
+    font-size: 10px;
+} 
+input[type="text"],  
+input[type="email"],  
+input[type="password"],  
+select {  
+    width: 100%;  
+    margin-bottom: 15px;  
+    padding: 10px;  
+    box-sizing: border-box;  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+}  
+  
+button[type="submit"] {  
+    padding: 15px;  
+    border-radius: 10px;  
+    border: none;  
+    background-color: #7b2980;  
+    color: white;  
+    cursor: pointer;  
+    width: 100%;  
+    font-size: 16px;  
+} 
+.form-container .close{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    margin-top: 25px;
+    text-decoration: none;
+    transition: all ease 0.3s;
+} 
+.form-container .close:hover{
+    transform: scale(1.1);
+    color: #7b2980;
+}
+/* ======================== */
+/* End Aplication Form */
+/* ======================== */
+/* ======================== */
+/* thank-you-page*/
+/* ======================== */
+
+.thank-you-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tick{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.tick-bx{
+    width: 50px;
+    height: 50px;
+    background: #7b2980;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thank-you-page .tnkx-bx{
+    text-align: center;
+}
+.tick-mark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 1rem 0;
+}
+.hm-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-hm{
+    background: #7b2980;
+    padding: 1rem 2rem;
+    display: flex;
+    text-align: center;
+    width: 250px;
+    font-size: 18px;
+    color: #fff !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin: 1rem 0;
+    transition: all ease 0.3s;
 
 
+}
 
+.back-hm i{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.back-hm:hover {
+   
+    transform: scale(1.03); /* The entire .home element scales */
+}
 
-
+.back-hm:hover i {
+    transform: translateX(-3px); /* The i element will translate */
+}
+/* ======================== */
+/* End thank-you-page*/
+/* ======================== */
 
 
 
@@ -452,7 +609,11 @@
             display: none;
            
         }
-        
+        /* form */
+        .form{
+            width: 100%;
+            height: auto;
+        }
     }
 }
 /* ======================== */
